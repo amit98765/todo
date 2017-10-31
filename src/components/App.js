@@ -9,6 +9,9 @@ this file serves as the base for what is going to be displayede on the screen
 
 import React from 'react';
 import AddTodo from '../containers/AddTodo';
+import ShowTodos from '../containers/ShowTodos';
+import ChangeFilter from '../components/ChangeFilter';
+
 
 const App = () => {
     return (
